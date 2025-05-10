@@ -13,9 +13,8 @@ cc_library_static {
     recovery_available: true,
 }
 
-
 cc_library_static {
-    name: "libinit_lake.recovery",
+    name: "libinit.recovery",
     srcs: ["init_lake.cpp"],
     recovery: true,
     recovery_available: true,
